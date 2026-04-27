@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    float comprimento, volta, reabastecimento, consumo, n1, n2, n3;
+    printf ("digite o coprimento da pista (em metros):\n");
+    scanf ("%f", &comprimento);
+    printf ("digite o numero total se voltas a serem percorridas:\n");
+    scanf ("%f", &volta);
+    printf ("digite o numero de reabastecimentos desejados:\n");
+    scanf ("%f", &reabastecimento);
+    printf ("digite o consumo do carro (em Km/L):\n");
+    n1 = volta*(comprimento/1000);//km percorridos
+    n2 = n1/reabastecimento;
+    n3 = n2/consumo;
+    printf ("a quantidade minima de litros ate o primeiro reabastecimento é: %.2f\n", n3);
+}
