@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main (){
+    int salario, horas;
+    printf ("digite seu salario por hora:");
+    scanf ("%d", &salario);
+    printf ("digite a horas trabalhadas no mes:);
+    scanf ("%d", &horas);
+    printf ("seu salario total é: %d", salario*horas);
+}
