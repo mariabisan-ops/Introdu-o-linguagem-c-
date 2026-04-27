@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main (){
+    int n;
+    printf ("digite o valor a ser convertido em metros");
+    scanf ("%d", &n);
+    printf ("o valor em cm é: %d", n*100);
+}
