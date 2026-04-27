@@ -1,1 +1,10 @@
+#include <stdio.h>
 
+int main (){
+    float salario, reajuste;
+    printf ("digite seu salario atual");
+    scanf ("%f", &salario);
+    printf ("digite a porcentagem de reajuste");
+    scanf ("%f", reajuste);
+    printf ("novo salario: %.2f": salario + (salario*(reajuste/100)));
+}
