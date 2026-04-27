@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main (){
+    float pot, l, c, n, total;
+    printf ("digite a potencia de cada lampada (em watts):\n");
+    scanf ("%f", &pot);
+    printf ("digite a largura do comodo:\n");
+    scanf ("%f", &l);
+    printf ("digite o comprimento do comodo:\n");
+    scanf ("%f", &c);
+    n = (l*c)*18;
+    total = n/pot;
+    printf ("o numero de lampadas necesárias é: %.2f", total);
+}
