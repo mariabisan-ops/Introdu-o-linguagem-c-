@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main (){
+    int lado, area;
+    printf ("digite o lado do quadrado:");
+    scanf ("%d", &lado);
+    area = lado*lado;
+    printf ("o dobro da area é: %d", area*2);
+}
