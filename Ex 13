@@ -1,1 +1,9 @@
+#include <stdio.h>
 
+int main (){
+    float fabrica, final;
+    printf ("digite o custo de fabrica do carro\n");
+    scanf ("%f", &fabrica);
+    final = fabrica + (fabrica * (28/100)) + (fabrica * (45/100);
+    printf ("custo total do carro: %.2f\n", final);
+}
