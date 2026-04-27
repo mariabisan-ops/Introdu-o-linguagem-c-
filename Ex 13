@@ -4,6 +4,6 @@ int main (){
     float fabrica, final;
     printf ("digite o custo de fabrica do carro\n");
     scanf ("%f", &fabrica);
-    final = fabrica + (fabrica * 0,28) + (fabrica * 0,45);
+    final = fabrica + (fabrica * 0.28) + (fabrica * 0.45);
     printf ("custo total do carro: %.2f\n", final);
 }
