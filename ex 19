@@ -1,0 +1,13 @@
+include <stdio.h>
+
+int main (){
+    float c, l, a, z;
+    printf ("digite o comprimento:");
+    scanf ("%f", &c);
+    printf ("digite a largura:");
+    scanf ("%f", &l);
+    printf ("digite a altura:");
+    scanf ("%f", &a);
+    z = (c*l*a)/1.5;
+    printf ("o total de azulejos a serem colocados na cozinha é: %.2f", z*4);
+}
