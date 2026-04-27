@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    float eleitores, brancos, nulos, validos;
+    printf ("digite o numero total de eleitores\n");
+    scanf ("%f", &eleitores);
+    printf ("digite o numero de votos brancos\n");
+    scanf ("%f", &brancos);
+    printf ("digite o numero de votos nulos\n");
+    scanf ("%f", &nulos);
+    printf ("digite o numero de votos validos\n");
+    scanf ("%f", &validos);
+    printf ("a porcentagem de brancos é: %.2f\n", (brancos*100)/eleitores);
+    printf ("a porcentagem de nulos é: %.2f\n", (nulos*100)/eleitores);
+    printf ("a porcentagem de validos é: %.2f\n", (validos*100)/eleitores);
+}
