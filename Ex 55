@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main (){
+    int lado, medida;
+    printf ("digite o numero de lados:\n");
+    scanf ("%d", &lado);
+    printf ("digite a medida dos lados:\n");
+    scanf ("%d", &medida);
+    if (lado==3){
+       printf ("TRIANGULO\nPerimetro igual a : %d\n", 3*medida);
+    }
+    else {
+       if (lado==4){
+          printf ("QUADRADO\nArea igual a: %d\n", medida*medida);
+       }
+       else {
+          if (lado<3 || lado>5){
+             printf ("nao é um valor valido");
+          }
+          else{
+             printf ("PENTAGONO");
+          }
+       }
+    }
+}
