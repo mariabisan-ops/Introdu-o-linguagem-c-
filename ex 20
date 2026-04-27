@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main (){
+    float i, f, l, total, media, lucro;
+    printf ("digite a marcação inicial do odometro (em Km)\n");
+    scanf ("%f", &i);
+    printf ("digite a marcação final do odometro (em Km)\n");
+    scanf ("%f", &f);
+    printf ("digite quantos litros foram gastos:\n");
+    scanf ("%f", &l);
+    printf ("digite a receita do dia:\n");
+    scanf ("%f", &total);
+    media = (f - i)/l;
+    lucro = total - (2.90*l);
+    printf ("a media do consumo é: %.2f.\nO lucro do dia é: %.2f.", media, lucro);
+}
