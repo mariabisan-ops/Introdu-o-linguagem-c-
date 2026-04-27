@@ -2,9 +2,9 @@
 
 int main (){
     float salario, reajuste;
-    printf ("digite seu salario atual");
+    printf ("digite seu salario atual\n");
     scanf ("%f", &salario);
-    printf ("digite a porcentagem de reajuste");
+    printf ("digite a porcentagem de reajuste\n");
     scanf ("%f", &reajuste);
     printf ("novo salario: %.2f", salario + (salario*(reajuste/100)));
 }
