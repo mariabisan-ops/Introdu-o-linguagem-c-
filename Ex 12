@@ -5,6 +5,6 @@ int main (){
     printf ("digite seu salario atual");
     scanf ("%f", &salario);
     printf ("digite a porcentagem de reajuste");
-    scanf ("%f", reajuste);
-    printf ("novo salario: %.2f": salario + (salario*(reajuste/100)));
+    scanf ("%f", &reajuste);
+    printf ("novo salario: %.2f", salario + (salario*(reajuste/100)));
 }
