@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main (){
+    float n1, n2, no, media;
+    printf ("digite a primeira nota:\n");
+    scanf ("%f", &n1);
+    printf ("digite a segunda nota:\n");
+    scanf ("%f", &n2);
+    printf ("digite a nota optativa (-1 se nao foi realizada):\n");
+    scanf ("%f", &no);
+    if (no != -1){
+       if (n1>n2){
+          media = (n1 + no)/2;
+       }
+       else{
+          media = (n2 + no)/2;
+       }
+    }
+    else {
+       media = (n1 + n2)/2;
+    }
+    if (media >= 6){
+       printf ("APROVADO\n");
+    }
+    else {
+       if (media < 3){
+          printf ("REPROVADO\n");
+       }
+       else {
+          printf ("EXAME\n");
+       }
+    }
+}
