@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    float n1, n2, n3, n4, total;
+    printf ("digite o numero de carros vendidos:\n");
+    scanf ("%f", &n1);
+    printf ("digite o valor que recebe por carro vendido:\n");
+    scanf ("%f", &n2);
+    printf ("digite o valor total vendido:\n");
+    scanf ("%f", &n3);
+    printf ("digite seu salario fixo:\n");
+    scanf ("%f", &n4);
+    total = n4 + (n1*n2) + (0.05*n3);
+    printf ("o salario total é: %.2f", total);
+
+}
