@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main (){
+    float n1, n2, n3;
+    printf ("digite o primeiro angulo:\n");
+    scanf ("%f", &n1);
+    printf ("digite o segundo angulo:\n");
+    scanf ("%f", &n2);
+    printf ("digite o terceiro angulo:\n");
+    scanf ("%f", &n3);
+    if (n1 == 90 || n2==90 || n3==90 ){
+        printf ("é um triangulo retangulo");
+    }
+    else {
+        if (n1>90 || n2>90 || n3>90){
+            printf ("é um triangulo obtusangulo");
+        }
+        else {
+            printf ("é um triangulo acutangulo");
+        }
+    }
+}
